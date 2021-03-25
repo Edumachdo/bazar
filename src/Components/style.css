@@ -1,0 +1,114 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*loja*/
+.loja_Fundo {
+    background-image: url("./img/front.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position-y: -50px;
+    background-position: center;
+}
+.loja_Fundo>div{
+    padding: 50px;
+}
+.loja{
+    backdrop-filter: blur(50px);
+}
+.loja>h1{
+    margin: 0px;
+    color: aliceblue;
+    text-shadow: 1px 1px 1px black;
+}
+.loja>div>a>img{
+    max-height: 350px;
+    margin: 0 20px 0 20px;
+}
+.loja>div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header{
+    width: 100%;
+    min-height: 20vh;
+}
+/*sobre*/
+.sobre{
+    background-image: url("./img/front.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: Calc(100vh - 300px);
+    background-position: center;
+    background-position-y: -50px;
+    background-attachment: fixed;
+    padding: 50px 100px;
+}
+.sobre>div{
+    background-color: white;
+    margin: 60px;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 5px 5px 5px black;
+}
+/*corpo*/
+.corpo{
+    background-color: #3d60ca;
+    padding-bottom: 30px;
+}
+.corpo>h1{
+    margin: 0px;
+    padding: 50px 0 50px 0;
+    text-shadow: 1px 1px 1px white;
+}
+.produtos>img{
+    background-color: white;
+    padding: 20px;
+    box-shadow: 5px 5px 10px black;
+    border-radius: 20px;
+    max-width: Calc(100vh - 00px);;
+    margin-bottom: 10px;
+}
+.nomeProduto{
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-shadow: 1px 1px 1px white;
+}
+/*footer*/
+.footer{
+    background-color: #3d60ca;
+    display: flex;
+    padding: 50px;
+    height: 25rem;
+}
+.footer>div{
+    width: 50rem;
+}
+.logo{
+    height: 100%;
+    border-radius: 10px;
+}
+.icone{
+    padding: 10px;
+
+}
+
+
+@media(max-width: 400px){
+    .footer{
+        display: contents;
+
+    }
+    .logo{
+        height: 100vw;
+    }
+    .icone{
+        width: 25vw;
+    }
+
+}
+@media(min-width: 401px) and (max-width: 1023px){
+
+}
